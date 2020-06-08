@@ -2,9 +2,9 @@
   "name": "electroncalculatorandusbfinder",
   "version": "1.0.0",
   "description": "Learning to build an electron app that will be a calculator and detect if something is plugged in the USB ports",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/perez6736/electronCalculatorAndUSBfinder/issues"
   },
-  "homepage": "https://github.com/perez6736/electronCalculatorAndUSBfinder#readme"
+  "homepage": "https://github.com/perez6736/electronCalculatorAndUSBfinder#readme",
+  "dependencies": {
+    "electron": "^9.0.2"
+  }
 }
